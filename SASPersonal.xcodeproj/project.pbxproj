@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313AF5401AA9ED9B0038E711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF53F1AA9ED9B0038E711 /* AppDelegate.swift */; };
+		313AF5421AA9ED9B0038E711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF5411AA9ED9B0038E711 /* ViewController.swift */; };
+		313AF5471AA9ED9B0038E711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313AF5461AA9ED9B0038E711 /* Images.xcassets */; };
+		313AF54A1AA9ED9B0038E711 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313AF5481AA9ED9B0038E711 /* LaunchScreen.xib */; };
+		313AF5561AA9ED9B0038E711 /* SASPersonalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF5551AA9ED9B0038E711 /* SASPersonalTests.swift */; };
+		313AF5601AA9EE560038E711 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF55F1AA9EE560038E711 /* Usuario.swift */; };
+		313AF5621AAA159D0038E711 /* WSDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF5611AAA159D0038E711 /* WSDB.swift */; };
+		313AF5641AAA38890038E711 /* AlunoDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF5631AAA38890038E711 /* AlunoDB.swift */; };
+		313AF5661AAA3B540038E711 /* UsuarioDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF5651AAA3B540038E711 /* UsuarioDB.swift */; };
+		314F8DCC1AB7416700A84B73 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F8DCB1AB7416700A84B73 /* LoginController.swift */; };
+		316126901B0104EF0024F8E4 /* Comum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161268F1B0104EF0024F8E4 /* Comum.swift */; };
+		31A837EB1B0111AA00C47197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A837E91B0111AA00C47197 /* Main.storyboard */; };
+		31F2D7171AB8866600C4ADD6 /* UserNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F2D7161AB8866600C4ADD6 /* UserNewController.swift */; };
+		31F2D7191AB8868A00C4ADD6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F2D7181AB8868A00C4ADD6 /* MenuController.swift */; };
+		31F2D71C1AB9D5B400C4ADD6 /* UserTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F2D71B1AB9D5B400C4ADD6 /* UserTeacherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		313AF5501AA9ED9B0038E711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313AF5321AA9ED9B0038E711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 313AF5391AA9ED9B0038E711;
+			remoteInfo = SASPersonal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		313AF53A1AA9ED9B0038E711 /* SASPersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SASPersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313AF53E1AA9ED9B0038E711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313AF53F1AA9ED9B0038E711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		313AF5411AA9ED9B0038E711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		313AF5461AA9ED9B0038E711 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		313AF5491AA9ED9B0038E711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		313AF54F1AA9ED9B0038E711 /* SASPersonalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASPersonalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313AF5541AA9ED9B0038E711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313AF5551AA9ED9B0038E711 /* SASPersonalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SASPersonalTests.swift; sourceTree = "<group>"; };
+		313AF55F1AA9EE560038E711 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		313AF5611AAA159D0038E711 /* WSDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDB.swift; sourceTree = "<group>"; };
+		313AF5631AAA38890038E711 /* AlunoDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoDB.swift; sourceTree = "<group>"; };
+		313AF5651AAA3B540038E711 /* UsuarioDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDB.swift; sourceTree = "<group>"; };
+		314F8DCB1AB7416700A84B73 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3161268F1B0104EF0024F8E4 /* Comum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comum.swift; sourceTree = "<group>"; };
+		31A837EA1B0111AA00C47197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SASPersonal/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31F2D7161AB8866600C4ADD6 /* UserNewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNewController.swift; sourceTree = "<group>"; };
+		31F2D7181AB8868A00C4ADD6 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = ../MenuController.swift; sourceTree = "<group>"; };
+		31F2D71B1AB9D5B400C4ADD6 /* UserTeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTeacherViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313AF5371AA9ED9B0038E711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AF54C1AA9ED9B0038E711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313AF5311AA9ED9B0038E711 = {
+			isa = PBXGroup;
+			children = (
+				313AF53C1AA9ED9B0038E711 /* SASPersonal */,
+				313AF5521AA9ED9B0038E711 /* SASPersonalTests */,
+				313AF53B1AA9ED9B0038E711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		313AF53B1AA9ED9B0038E711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313AF53A1AA9ED9B0038E711 /* SASPersonal.app */,
+				313AF54F1AA9ED9B0038E711 /* SASPersonalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313AF53C1AA9ED9B0038E711 /* SASPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				313AF5611AAA159D0038E711 /* WSDB.swift */,
+				313AF55F1AA9EE560038E711 /* Usuario.swift */,
+				313AF5651AAA3B540038E711 /* UsuarioDB.swift */,
+				313AF5631AAA38890038E711 /* AlunoDB.swift */,
+				313AF53F1AA9ED9B0038E711 /* AppDelegate.swift */,
+				313AF5411AA9ED9B0038E711 /* ViewController.swift */,
+				314F8DCB1AB7416700A84B73 /* LoginController.swift */,
+				31F2D7161AB8866600C4ADD6 /* UserNewController.swift */,
+				31F2D7181AB8868A00C4ADD6 /* MenuController.swift */,
+				31A837E91B0111AA00C47197 /* Main.storyboard */,
+				313AF5461AA9ED9B0038E711 /* Images.xcassets */,
+				313AF5481AA9ED9B0038E711 /* LaunchScreen.xib */,
+				313AF53D1AA9ED9B0038E711 /* Supporting Files */,
+				31F2D71B1AB9D5B400C4ADD6 /* UserTeacherViewController.swift */,
+				3161268F1B0104EF0024F8E4 /* Comum.swift */,
+			);
+			path = SASPersonal;
+			sourceTree = "<group>";
+		};
+		313AF53D1AA9ED9B0038E711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				313AF53E1AA9ED9B0038E711 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		313AF5521AA9ED9B0038E711 /* SASPersonalTests */ = {
+			isa = PBXGroup;
+			children = (
+				313AF5551AA9ED9B0038E711 /* SASPersonalTests.swift */,
+				313AF5531AA9ED9B0038E711 /* Supporting Files */,
+			);
+			path = SASPersonalTests;
+			sourceTree = "<group>";
+		};
+		313AF5531AA9ED9B0038E711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				313AF5541AA9ED9B0038E711 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313AF5391AA9ED9B0038E711 /* SASPersonal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313AF5591AA9ED9B0038E711 /* Build configuration list for PBXNativeTarget "SASPersonal" */;
+			buildPhases = (
+				313AF5361AA9ED9B0038E711 /* Sources */,
+				313AF5371AA9ED9B0038E711 /* Frameworks */,
+				313AF5381AA9ED9B0038E711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASPersonal;
+			productName = SASPersonal;
+			productReference = 313AF53A1AA9ED9B0038E711 /* SASPersonal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		313AF54E1AA9ED9B0038E711 /* SASPersonalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313AF55C1AA9ED9B0038E711 /* Build configuration list for PBXNativeTarget "SASPersonalTests" */;
+			buildPhases = (
+				313AF54B1AA9ED9B0038E711 /* Sources */,
+				313AF54C1AA9ED9B0038E711 /* Frameworks */,
+				313AF54D1AA9ED9B0038E711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				313AF5511AA9ED9B0038E711 /* PBXTargetDependency */,
+			);
+			name = SASPersonalTests;
+			productName = SASPersonalTests;
+			productReference = 313AF54F1AA9ED9B0038E711 /* SASPersonalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		313AF5321AA9ED9B0038E711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paula Almeida";
+				TargetAttributes = {
+					313AF5391AA9ED9B0038E711 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					313AF54E1AA9ED9B0038E711 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 313AF5391AA9ED9B0038E711;
+					};
+				};
+			};
+			buildConfigurationList = 313AF5351AA9ED9B0038E711 /* Build configuration list for PBXProject "SASPersonal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 313AF5311AA9ED9B0038E711;
+			productRefGroup = 313AF53B1AA9ED9B0038E711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313AF5391AA9ED9B0038E711 /* SASPersonal */,
+				313AF54E1AA9ED9B0038E711 /* SASPersonalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313AF5381AA9ED9B0038E711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A837EB1B0111AA00C47197 /* Main.storyboard in Resources */,
+				313AF54A1AA9ED9B0038E711 /* LaunchScreen.xib in Resources */,
+				313AF5471AA9ED9B0038E711 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AF54D1AA9ED9B0038E711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313AF5361AA9ED9B0038E711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AF5421AA9ED9B0038E711 /* ViewController.swift in Sources */,
+				31F2D7191AB8868A00C4ADD6 /* MenuController.swift in Sources */,
+				316126901B0104EF0024F8E4 /* Comum.swift in Sources */,
+				313AF5641AAA38890038E711 /* AlunoDB.swift in Sources */,
+				313AF5661AAA3B540038E711 /* UsuarioDB.swift in Sources */,
+				313AF5401AA9ED9B0038E711 /* AppDelegate.swift in Sources */,
+				313AF5601AA9EE560038E711 /* Usuario.swift in Sources */,
+				313AF5621AAA159D0038E711 /* WSDB.swift in Sources */,
+				314F8DCC1AB7416700A84B73 /* LoginController.swift in Sources */,
+				31F2D71C1AB9D5B400C4ADD6 /* UserTeacherViewController.swift in Sources */,
+				31F2D7171AB8866600C4ADD6 /* UserNewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AF54B1AA9ED9B0038E711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AF5561AA9ED9B0038E711 /* SASPersonalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		313AF5511AA9ED9B0038E711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 313AF5391AA9ED9B0038E711 /* SASPersonal */;
+			targetProxy = 313AF5501AA9ED9B0038E711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		313AF5481AA9ED9B0038E711 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313AF5491AA9ED9B0038E711 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		31A837E91B0111AA00C47197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31A837EA1B0111AA00C47197 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		313AF5571AA9ED9B0038E711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		313AF5581AA9ED9B0038E711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313AF55A1AA9ED9B0038E711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SASPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		313AF55B1AA9ED9B0038E711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SASPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		313AF55D1AA9ED9B0038E711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SASPersonalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SASPersonal.app/SASPersonal";
+			};
+			name = Debug;
+		};
+		313AF55E1AA9ED9B0038E711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SASPersonalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SASPersonal.app/SASPersonal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313AF5351AA9ED9B0038E711 /* Build configuration list for PBXProject "SASPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AF5571AA9ED9B0038E711 /* Debug */,
+				313AF5581AA9ED9B0038E711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313AF5591AA9ED9B0038E711 /* Build configuration list for PBXNativeTarget "SASPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AF55A1AA9ED9B0038E711 /* Debug */,
+				313AF55B1AA9ED9B0038E711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313AF55C1AA9ED9B0038E711 /* Build configuration list for PBXNativeTarget "SASPersonalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AF55D1AA9ED9B0038E711 /* Debug */,
+				313AF55E1AA9ED9B0038E711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 313AF5321AA9ED9B0038E711 /* Project object */;
+}
